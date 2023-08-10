@@ -28,3 +28,5 @@ skimr:: skim(diamonds)
 ggplot(data=diamonds, aes(carat, price))+
   geom_point()
 ```
+
+##completed
