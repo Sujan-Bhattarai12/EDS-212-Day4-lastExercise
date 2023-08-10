@@ -1,0 +1,30 @@
+---
+title: "Exploring R"
+author: "Sujan Bhattarai"
+format: html
+editor: visual
+---
+
+## The classwork
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+library(skimr)
+library(GGally)
+```
+
+```{r}
+View(diamonds)
+names(diamonds)
+dim(diamonds)
+summary(diamonds)
+head(diamonds)
+tail(diamonds)
+skimr:: skim(diamonds)
+```
+
+```{r}
+ggplot(data=diamonds, aes(carat, price))+
+  geom_point()
+```
