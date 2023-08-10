@@ -29,4 +29,10 @@ ggplot(data=diamonds, aes(carat, price))+
   geom_point()
 ```
 
+Head ggpairs
+
+```{r}
+ggpairs(diamonds, columns = 1:ncol(diamonds))
+```
+
 ##completed
