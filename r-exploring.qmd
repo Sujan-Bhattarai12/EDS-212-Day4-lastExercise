@@ -36,3 +36,8 @@ ggpairs(diamonds, columns = 1:ncol(diamonds))
 ```
 
 ##completed
+
+```{r}
+ggplot(diamonds, aes(clarity, diamonds$price))+
+  geom_boxplot()
+```
